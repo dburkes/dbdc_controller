@@ -1,0 +1,12 @@
+<%= link_to "edit this user", edit_user_path(@user) %>
+<br>
+<%= link_to "delete this user", user_path(@user), :confirm => "Are you sure you want to delete #{@user.Name}?", :method => :delete %>
+<br>
+<%= link_to "back to users list", users_path %>
+<ul>
+<% @user.class.attributes.each do |attr| %>
+    <li>
+        <%= attr %> : <%= @user[attr] %>
+    </li>
+<% end %>
+</ul>

@@ -1,0 +1,6 @@
+---
+client_id: put-your-client-id-here
+client_secret: put-your-client-secret-here
+username: put-your-username-here
+password: put-your-password-here
+debugging: true
