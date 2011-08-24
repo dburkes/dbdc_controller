@@ -1,4 +1,11 @@
 GIT
+  remote: https://github.com/dburkes/databasedotcom-rails.git
+  revision: 68fcf1ee5df27d63206bccbe55368705f6a4326f
+  specs:
+    databasedotcom-rails (0.0.1)
+      databasedotcom
+
+GIT
   remote: https://github.com/heroku/databasedotcom.git
   revision: c66aa72669b1e67bc19b717b18c16b978f45ae3b
   specs:
@@ -81,5 +88,6 @@ PLATFORMS
 
 DEPENDENCIES
   databasedotcom!
+  databasedotcom-rails!
   rails (= 3.0.9)
   sqlite3

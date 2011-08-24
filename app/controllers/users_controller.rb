@@ -1,4 +1,5 @@
-class UsersController < DatabasedotcomController
+class UsersController < ApplicationController
+  include Databasedotcom::Rails::Controller
   before_filter :load_user, :except => [:index, :new]
   
   def index
